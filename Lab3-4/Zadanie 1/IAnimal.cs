@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Lab3_4
 {
-    internal class Animal
-    {
+    interface IAnimal
+    { 
+        void animal_sound();
     }
 }
