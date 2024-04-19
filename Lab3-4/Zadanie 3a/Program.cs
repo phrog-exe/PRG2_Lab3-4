@@ -8,7 +8,7 @@ namespace Lab3_4.Zadanie_3a
 {
      class Program
     {
-         static void Main(string[] args)
+       /*  static void Main(string[] args)
         {
             Pies pies = new Pies();
 
@@ -26,5 +26,7 @@ namespace Lab3_4.Zadanie_3a
 
             
         }
+       */
     }
+       
 }
