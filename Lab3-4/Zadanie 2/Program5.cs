@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lab3_4.Zadanie_2
 {
+    /*
     enum SeatStatus
     {
         Available,
@@ -32,4 +33,5 @@ namespace Lab3_4.Zadanie_2
             Console.WriteLine($"Seat {seatNumber} status: {seats[seatNumber]}");
         }
     }
+    */
 }
