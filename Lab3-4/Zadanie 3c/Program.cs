@@ -10,7 +10,16 @@ namespace Lab3_4.Zadanie_3c
     {
         static void Main(string[] args)
         {
-            
+            Samochod samochod = new Samochod("sedan", "czerwony", 4, "Ford", false);
+          
+            samochod.Jedz();
+            samochod.Zatrzymaj();
+
+            Autobus autobus = new Autobus(true, 2, "żółty", 6, "Mercedes", false);
+
+            autobus.Jedz();
+            autobus.Zatrzymaj();
+            autobus.CzyLimitOk();
         }
     }
 }

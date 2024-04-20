@@ -10,23 +10,17 @@ namespace Lab3_4.Zadanie_3c
         public class Pojazd
         {
            
-            public string Kolor { get; set; }
-            public int LiczbaKol { get; set; }
-            public string Marka { get; set; }
-
+            public string kolor { get; set; }
+            public int liczbaKol { get; set; }
+            public string marka { get; set; }     
+            public bool czyJedzie { get; set; }
+       
         
-            
-            public bool CzyJedzie(bool czyJedzie)
-            {
-                return CzyJedzie;
-            }
-
-            // Metoda rozpoczynająca jazdę pojazdu
             public bool Jedz()
             {
-                if (!CzyJedzie)
+                if (!czyJedzie)
                 {
-                    CzyJedzie = true;
+                    czyJedzie = true;
                     Console.WriteLine("Pojazd rusza.");
                     return true;
                 }
@@ -37,12 +31,11 @@ namespace Lab3_4.Zadanie_3c
                 }
             }
 
-            // Metoda zatrzymująca pojazd
             public bool Zatrzymaj()
             {
-                if (CzyJedzie)
+                if (czyJedzie)
                 {
-                    CzyJedzie = false;
+                    czyJedzie = false;
                     Console.WriteLine("Pojazd zatrzymuje się.");
                     return true;
                 }
